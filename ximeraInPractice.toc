@@ -1,0 +1,13 @@
+\contentsline {section}{\tocsection {}{1}{Philosophy}}{1}
+\contentsline {section}{\tocsection {}{2}{Setup}}{1}
+\contentsline {subsection}{\tocsubsection {}{2.1}{For Linux}}{1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{For Mac}}{2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{For Windows (MiKTeX)}}{2}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Test your system}}{2}
+\contentsline {section}{\tocsection {}{3}{Writing a new activity}}{2}
+\contentsline {section}{\tocsection {}{4}{Writing basic questions}}{3}
+\contentsline {section}{\tocsection {}{5}{Adding solutions and answer fields}}{4}
+\contentsline {section}{\tocsection {}{6}{Questions with multiple-parts and hints}}{5}
+\contentsline {section}{\tocsection {}{7}{Presenting one question of a variation of questions}}{6}
+\contentsline {section}{\tocsection {}{8}{Adding interactive elements}}{7}
+\contentsline {section}{\tocsection {}{9}{Images and videos}}{7}
