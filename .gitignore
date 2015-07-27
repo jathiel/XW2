@@ -6,3 +6,5 @@
 *.toc
 *.txt
 *.log
+*.jax
+*.synctex
