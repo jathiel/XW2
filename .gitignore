@@ -1,1 +1,7 @@
-pdf
+*.pdf
+*.aux
+*.jar
+*.gz
+*.out
+*.toc
+*.txt
