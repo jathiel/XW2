@@ -16,7 +16,7 @@
 \newcommand{\RS}{r^s}
 
 \ifdefined\HCode
-\newcommand{\youtubes}[1]{\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/#1" frameborder="0" allowfullscreen></iframe>}}
+\renewcommand{\youtube}[1]{\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/#1" frameborder="0" allowfullscreen></iframe>}}
 \fi
 
 %\ifdefined\HCode
@@ -41,7 +41,7 @@ Test platform for embedding.
 
 Here is a youtube video.
 
-\youtubes{ED-oYu4e3LU}
+\youtube{ED-oYu4e3LU}
 
 Here is some javascript (maybe).
 \HCode{<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
