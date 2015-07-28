@@ -131,4 +131,27 @@ Here is a youtube video.
 
 \HCode{<iframe width="420" height="315" src="https://www.youtube.com/embed/RIrG6xBW5Wk" frameborder="0" allowfullscreen></iframe>}
 
+Here is some javascript.
+
+\HCode{
+<html>  
+    <head>  
+        <title>Snake game</title>
+        <script type="text/javascript" src="raphael.js"></script>     
+        <script type="text/javascript" src="snake.js"></script>  
+        <style type="text/css">  
+            #canvas_container {  
+                width: 600px;  
+                border: 1px solid #000;  
+                margin-left: auto;
+                margin-right: auto;
+            }  
+        </style> 
+    </head>   
+    <body onLoad="init()">  
+        <div id="canvas_container"></div>    
+    </body>  
+</html>
+}
+
 \end{document}
