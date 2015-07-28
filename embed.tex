@@ -1,0 +1,50 @@
+\documentclass{ximera}
+
+\newcommand{\RR}{\mathbb R}
+\renewcommand{\d}{\,d}
+\newcommand{\dd}[2][]{\frac{d #1}{d #2}}
+\renewcommand{\l}{\ell}
+\newcommand{\ddx}{\frac{d}{dx}}
+\newcommand{\dfn}{\textbf}
+\newcommand{\eval}[1]{\bigg[ #1 \bigg]}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Here is an example of embedding items
+
+\outcome{}
+
+\newcommand{\RS}{r^s}
+
+\title[Break-Ground:]{Embed tests}
+
+\begin{document}
+
+\ifdefined\HCode
+\renewcommand{\youtube}{\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/#1" frameborder="0" allowfullscreen></iframe>}}
+\fi
+ 
+%\ifdefined\HCode
+%\rewnewcommand{\geogebra}[3]{}
+%\fi
+
+%\HCode{<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/#1/width/#2/height/#3/border/888888/rc/false/ai/false/sdz/false/smb/false/stb/false/stbh/false/ld/false/sri/false/at/auto%" width="#2px" height="#3px" style="border:0px;"> </iframe>}
+
+\begin{abstract}
+Test platform for embedding.
+\end{abstract}
+
+\maketitle
+
+%Here is a Geogebra activity.
+
+%\geogebra{222093}{711}{697}
+
+Here is a youtube video.
+\youtube{ED-oYu4e3LU}
+
+Here is some javascript (maybe).
+\HCode{<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src='jsDed.js'></script>
+<h1 id="time">START</h1>}
+
+\end{document}
