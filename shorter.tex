@@ -31,9 +31,9 @@
 \renewcommand{\dice}{\HCode{<span class="dice" id="dice">}\HCode{</span>}}
 \fi
 
-\ifdefined\HCode
+%\ifdefined\HCode
 \renewcommand{\youtube}{\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/#1" frameborder="0" allowfullscreen></iframe>}}
-\fi
+%\fi
  
 %\ifdefined\HCode
 %\rewnewcommand{\geogebra}[3]{}
@@ -138,11 +138,9 @@ Now I should check to see if multiple choice works.
 %\geogebra{222093}{711}{697}
 
 Here is a youtube video.
-
 \youtube{ED-oYu4e3LU}
 
 Here is some javascript (maybe).
-
 \HCode{<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src='jsDed.js'></script>
 <h1 id="time">START</h1>}
