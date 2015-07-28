@@ -31,9 +31,11 @@
 \renewcommand{\dice}{\HCode{<span class="dice" id="dice">}\HCode{</span>}}
 \fi
 
-%\ifdefined\HCode
-%\newcommand{\youtube}[1]{}
-%\fi
+\ifdefined\HCode
+\newcommand{\youtube}[1]{\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/#1" frameborder="0" allowfullscreen></iframe>}}
+\fi
+
+%\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/ED-oYu4e3LU" frameborder="0" allowfullscreen></iframe>}
 
 \begin{abstract}
 Here we see a dialogue where two young mathematicians discuss limits
@@ -133,7 +135,7 @@ Here is a Geogebra 2 activity.
 
 Here is a youtube video.
 
-\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/ED-oYu4e3LU" frameborder="0" allowfullscreen></iframe>}
+\youtube{ED-oYu4e3LU}
 
 Here is some javascript (maybe).
 
