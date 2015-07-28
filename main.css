@@ -2,7 +2,7 @@
 
 /* I LOVE BLINK TAG */
 body {
-    onload = init();
+    onload = "init()"";
 }
 
 .blink {
