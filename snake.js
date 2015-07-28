@@ -1,5 +1,5 @@
 
-var raphael = require('raphael');
+//var raphael = require('raphael');
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Variables
@@ -67,7 +67,7 @@ function Segment(state,x,y) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 function init(){
 	
-	var paper = new raphael.Raphael(document.getElementById('canvas_container'), 600, 600); //RaphaelJS container.
+	var paper = Raphael(document.getElementById('canvas_container'), 600, 600); //RaphaelJS container.
 
 	start();
 }
