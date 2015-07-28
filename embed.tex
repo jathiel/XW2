@@ -15,9 +15,9 @@
 
 \newcommand{\RS}{r^s}
 
-\ifdefined\HCode
-\renewcommand{\youtube}{\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/#1" frameborder="0" allowfullscreen></iframe>}}
-\fi
+%\ifdefined\HCode
+\newcommand{\youtube2}[1]{\HCode{<iframe width="560" height="315" src="https://www.youtube.com/embed/#1" frameborder="0" allowfullscreen></iframe>}}
+%\fi
 
 %\ifdefined\HCode
 %\rewnewcommand{\geogebra}[3]{}
@@ -40,7 +40,7 @@ Test platform for embedding.
 %\geogebra{222093}{711}{697}
 
 Here is a youtube video.
-\youtube{ED-oYu4e3LU}
+\youtube2{ED-oYu4e3LU}
 
 Here is some javascript (maybe).
 \HCode{<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
