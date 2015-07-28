@@ -134,9 +134,6 @@ Here is a youtube video.
 Here is some javascript.
 
 \HCode{
-<html>  
-    <head>  
-        <title>Snake game</title>
         <script type="text/javascript" src="raphael.js"></script>     
         <script type="text/javascript" src="snake.js"></script>  
         <style type="text/css">  
@@ -147,11 +144,7 @@ Here is some javascript.
                 margin-right: auto;
             }  
         </style> 
-    </head>   
-    <body onLoad="init()">  
-        <div id="canvas_container"></div>    
-    </body>  
-</html>
+        <div onLoad="init()" id="canvas_container"></div>    
 }
 
 \end{document}
