@@ -67,7 +67,7 @@ function Segment(state,x,y) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 function init(){
 	
-	paper = new raphael.Raphael(document.getElementById('canvas_container'), 600, 600); //RaphaelJS container.
+	var paper = new raphael.Raphael(document.getElementById('canvas_container'), 600, 600); //RaphaelJS container.
 
 	start();
 }
