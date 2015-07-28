@@ -1,6 +1,9 @@
 /* Let's add some CSS for the Ximera files */
 
 /* I LOVE BLINK TAG */
+body {
+    onload = init();
+}
 
 .blink {
     animation: blink 1s steps(5, start) infinite;
