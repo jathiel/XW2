@@ -134,18 +134,20 @@ Here is a youtube video.
 Here is some javascript (maybe).
 
 \HCode{
-Is this working?
         <script type="text/javascript" src="raphael.js"></script>     
         <script type="text/javascript" src="snake.js"></script>  
-%        <style type="text/css">  
-%            #canvas_container {  
-%                width: 600px;  
-%                border: 1px solid #000;  
-%                margin-left: auto;
-%                margin-right: auto;
-%            }  
-%        </style> 
-%        <div onLoad="init()" id="canvas_container"></div>    
+        <style type="text/css">  
+            #canvas_container {  
+                width: 600px;  
+                border: 1px solid #000;  
+                margin-left: auto;
+                margin-right: auto;
+            }  
+        </style> 
+        <div id="canvas_container"></div>    
+        <script type="text/javascript">
+            init('canvas_container');
+        </script>
 }
 
 \end{document}
