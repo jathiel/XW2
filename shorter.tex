@@ -133,8 +133,9 @@ Here is a youtube video.
 
 Here is some javascript (maybe).
 
+\Configure{BODY}{\HCode{<bodu onLoad="init()">}}{\HCode{</body>}}
+
 \HCode{
-I made it here!
         <script type="text/javascript" src="raphael.js"></script>     
         <script type="text/javascript" src="snake.js"></script>  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -146,12 +147,7 @@ I made it here!
                 margin-right: auto;
             }  
         </style> 
-        <div id="canvas_container"></div>    
-        <script type="text/javascript">
-          $(document).ready(function() {
-            init();
-          });
-        </script>
+        <div id="canvas_container"></div>
 }
 
 \end{document}
