@@ -19,10 +19,10 @@
 
 \begin{document}
 
-\newenvironment{blinkblock}{}{}
+%\newenvironment{blinkblock}{}{}
 \newcommand{\blink}[1]{#1}
 \ifdefined\HCode
-\ConfigureEnv{blinkblock}{\ifvmode \IgnorePar\fi \EndP\HCode{<div class="blink">}}{\HCode{</div>}\IgnoreIndent}{}{}
+%\ConfigureEnv{blinkblock}{\ifvmode \IgnorePar\fi \EndP\HCode{<div class="blink">}}{\HCode{</div>}\IgnoreIndent}{}{}
 \renewcommand{\blink}[1]{\HCode{<span class="blink">}#1\HCode{</span>}}
 \fi
 
