@@ -42,7 +42,7 @@ var main = function() {
 	$("#time").hover( function(){
 		$(this).addClass('stuff',100);
 		startTime = Date.now();
-		if(typeof stopTime === 'undefined' || startTime - stopTime <= 5000){
+		if(typeof stopTime === 'undefined'){
 			interval = setInterval(timeUpdate,100);
 		}
 		else {
@@ -53,10 +53,10 @@ var main = function() {
 	},
 	
 	function(){
-		if(typeof stopTime === 'undefined' || startTime - stopTime <= 5000){
+		if(typeof stopTime === 'undefined'){
 			clearInterval(interval);
 			$(this).removeClass('stuff',100);
-			$(this).text("Pause");
+			$(this).text("Mouseover for the time");
 			stopTime = Date.now();
 		}
 		else {
