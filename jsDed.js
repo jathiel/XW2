@@ -43,7 +43,7 @@ var main = function() {
 		$(this).addClass('stuff',100);
 		startTime = Date.now();
 		//if(typeof stopTime === 'undefined'){
-		//	interval = setInterval(timeUpdate,100);
+			interval = setInterval(timeUpdate,100);
 		//}
 		//else {
 		//	$(this).removeClass('stuff',100);
@@ -53,15 +53,15 @@ var main = function() {
 	},
 	
 	function(){
-		if(typeof stopTime === 'undefined'){
+		//if(typeof stopTime === 'undefined'){
 			clearInterval(interval);
 			$(this).removeClass('stuff',100);
-			$(this).text("Mouseover for the time");
+			$(this).text("Mouseover for the time.");
 			stopTime = Date.now();
-		}
-		else {
-			return false;
-		}
+		//}
+		//else {
+		//	return false;
+		//}
 	});
 
 }
