@@ -9,3 +9,11 @@
 *.jax
 *.synctex
 *.html
+*.4ct
+*.4tc
+*.lg
+*.dvi
+*.idv
+*.tmp
+*.xref
+*.css
