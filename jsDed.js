@@ -42,14 +42,14 @@ var main = function() {
 	$("#time").hover( function(){
 		$(this).addClass('stuff',100);
 		startTime = Date.now();
-		if(typeof stopTime === 'undefined'){
-			interval = setInterval(timeUpdate,100);
-		}
-		else {
-			$(this).removeClass('stuff',100);
-			$(this).text("End");
-		}
-		console.log(startTime - stopTime);
+		//if(typeof stopTime === 'undefined'){
+		//	interval = setInterval(timeUpdate,100);
+		//}
+		//else {
+		//	$(this).removeClass('stuff',100);
+		//	$(this).text("End");
+		//}
+		//console.log(startTime - stopTime);
 	},
 	
 	function(){
