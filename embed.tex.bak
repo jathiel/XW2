@@ -1,3 +1,4 @@
+%&latex
 \documentclass{ximera}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -15,15 +16,15 @@ Tests for embedding.
 
 \maketitle
 
-Here is a Geogebra activity. The command is \verb!\geogebra{id}{width}{height}!.
+Here is a Geogebra activity. The command is \verb+\geogebra{id}{width}{height}+.
 
 \geogebra{222093}{711}{697}
 
-Here is a youtube video. The command is \verb!\youtube{id}!.
+Here is a youtube video. The command is \verb+\youtube{id}+.
 
 \youtube{ED-oYu4e3LU}
 
-Here is some javascript. The environment is \verb!\begin{html}html_here\end{html}!.
+Here is some javascript. The current environment is \verb+\begin{html}html_here\end{html}+.
 
 \begin{html}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
